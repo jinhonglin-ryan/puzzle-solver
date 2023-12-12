@@ -1,0 +1,89 @@
+commit 5a023cce4e1ef747b8a5b596f577fca0ddbd6377
+Author: Jinhong Lin <linjinhong@yandex.com>
+Date:   Mon Mar 27 00:42:22 2023 -0400
+
+    minor errors adjusted, project finished
+
+commit 14d017f9376ffdcc92b413559840fba744de5b05
+Author: Jinhong Lin <linjinhong@yandex.com>
+Date:   Fri Mar 24 21:58:46 2023 -0400
+
+    project completed with autograder errors fixed
+
+commit c054e05ccbe1c0b52447560ed845629e66cb1f48
+Author: Jinhong Lin <linjinhong@yandex.com>
+Date:   Fri Mar 24 21:49:28 2023 -0400
+
+    project completed with more comments added
+
+commit fc78dc6c113418edd698ee09a319a58ef7f23d99
+Author: Jinhong Lin <linjinhong@yandex.com>
+Date:   Fri Mar 24 21:22:51 2023 -0400
+
+    project finished, valgrind run with no errors
+
+commit 3386bbff9f97ef976fd1758987c35e694c64891f
+Author: Jinhong Lin <linjinhong@yandex.com>
+Date:   Thu Mar 16 23:19:03 2023 -0400
+
+    W finished, memory leak without W has been fixed
+
+commit 4110f6d948f271465b80915acf1f765d8c8dc7fb
+Author: Jinhong Lin <linjinhong@yandex.com>
+Date:   Thu Mar 16 02:05:08 2023 -0400
+
+    W error handling and W command to be finished
+
+commit 59cb8557fa5f546925783cd3b11c5c3e9d17bc9f
+Author: Jinhong Lin <linjinhong@yandex.com>
+Date:   Wed Mar 15 16:55:32 2023 -0400
+
+    minor errors in these files adjusted
+
+commit 481d603a0a415a90636f94588f8c500a225edd28
+Author: Ricky Yu <dyu40@jh.edu>
+Date:   Wed Mar 15 16:50:56 2023 -0400
+
+    Finished debugging all except W
+
+commit d024c4b8f38d7e77e2035943874f2de4ab3f44a9
+Author: Ricky Yu <dyu40@jh.edu>
+Date:   Wed Mar 15 16:47:11 2023 -0400
+
+    Finished debugging all except W
+
+commit 51fc900dbc40310227e974796425700497f64203
+Author: Ricky Yu <dyu40@jh.edu>
+Date:   Wed Mar 15 02:32:13 2023 -0400
+
+    Updated puzzle.c
+
+commit 8f8c06395b1417207435f7c5f01826ea180e8ab2
+Author: Ricky Yu <dyu40@jh.edu>
+Date:   Wed Mar 15 02:28:04 2023 -0400
+
+    Finished writing test_functions and debugged some
+
+commit 515f909b192ff801f3b8133b5295e62ecb5aba63
+Author: Ricky Yu <dyu40@jh.edu>
+Date:   Tue Mar 14 22:48:34 2023 -0400
+
+    Finished all commands and Makefile
+
+commit 7811438097a5a35b4c68421162445b773ea8b17c
+Author: Jinhong Lin <linjinhong@yandex.com>
+Date:   Tue Mar 14 15:51:52 2023 -0400
+
+    V and K finished, minor errors to be checked (MAXSTEPS?)
+
+commit ba85ba3b4c104104d985268769d08c667764da2a
+Author: Jinhong Lin <linjinhong@yandex.com>
+Date:   Tue Mar 14 15:02:51 2023 -0400
+
+    minor errors adjusted
+
+commit 8ad1d9dd2e4090c694ff73cd9422e17e9cbd0798
+Author: Ricky Yu <dyu40@jh.edu>
+Date:   Tue Mar 14 01:22:30 2023 -0400
+
+    Finished all commands except K and V haven't debug
