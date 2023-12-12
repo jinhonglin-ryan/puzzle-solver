@@ -2,14 +2,33 @@ Members:
 Jinhong Lin 
 Dianzheng Yu
 
-Jinhong Lin's contributions:
-1. Wrote all puzzle.c
-2. Wrote these functions: handle_S_command, handle_V_command, solve_puzzle, compute_manhattan_distance, image_destroy
-3. Wrote all Makefile
-4. Cleared all valgrind errors
-5. Did all error handling except for W_command
 
-Dianzheng Yu's contributions: 
-1. Wrote all puzzle_tests.c
-2. Wrote these functions: puzzle_create, puzzle_destroy, puzzle_set_tile, puzzle_get_tile, handle_C_command, handle_T_command, handle_P_command, handle_W_command
-3. Did error handling for W_command 
+*Running the Program*
+
+The program executable should be named “puzzle”.
+
+There are two ways to invoke the program. If invoked without command line arguments,
+./puzzle
+then the program should read commands from stdin.
+
+If the program is invoked with a single argument, e.g.
+./puzzle input.txt
+then the program should read commands from the file named by the command line argument.
+
+
+*Input Format*
+
+Command	                Description
+C size	                Create initial puzzle with size rows and columns
+T tile...	            Initialize puzzle configuration with series of tile numbers
+I filename	            Load the background image from specified PPM file
+P	                    Print sequence of tile numbers reflecting current puzzle configuration
+W filename1 filename2	Write puzzle image to filename1 and puzzle configuration to filename2
+S direction	            Slide a free tile in specified direction
+K	                    Check to see whether the puzzle is in the “winning” configuration
+V	                    Compute a series of moves to solve the puzzle
+Q	                    Quit the program
+
+
+
+
