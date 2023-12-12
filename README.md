@@ -43,3 +43,69 @@ $ diff expected/ingo_scrambled_test06.txt ingo_scrambled_test06.txt
 $ compare expected/ingo_solved_test06.ppm ingo_solved_test06.ppm \
 	ingo_solved_test06_diff.ppm
 $ diff expected/ingo_solved_test06.txt ingo_solved_test06.txt
+
+
+Example of Program Functionality
+This section shows a quick example of how the program works.
+
+The example input shown here is in the file test06.txt included in the starter files, so the following invocation could be used to run the program with this input:
+
+./puzzle test06.txt
+The input file test06.txt has the following contents:
+
+C 4
+T 5 7 1 2 0 9 3 4 13 8 6 11 14 15 10 12
+I ingo.ppm
+W ingo_scrambled.ppm ingo_scrambled.txt
+S l
+S u
+S l
+S l
+S r
+S d
+S r
+S d
+S l
+S l
+S u
+S r
+S u
+S u
+S r
+S r
+S d
+S d
+S d
+S l
+S l
+S u
+S r
+S u
+S l
+S l
+S u
+W ingo_solved.ppm ingo_solved.txt
+The meaning of each of these commands is fully described in the Input Format section below. However, here is a brief summary of what this input does:
+
+Specifies that the puzzle is 4x4 (the C command)
+Specifies a particular arrangement of tiles (the T command and the numbers that follow it)
+Specifies that ingo.ppm is the background image for the puzzle (the I command)
+Saves the initial (scrambled) configuration of the puzzle to image ingo_scrambled.ppm and text file ingo_scrambled.txt (the first W command)
+Performs a series of moves (the S commands)
+Saves the final solved configuration of the puzzle to the image ingo_solved.ppm and text file ingo_solved.txt (the second W command)
+This is the background image (ingo.ppm):
+
+Picture of Ingo the cat
+This is the initial scrambled puzzle configuration (the image is ingo_scrambled.ppm):
+
+5	7	1	2
+9	3	4
+13	8	6	11
+14	15	10	12 Scrambled puzzle image
+
+After all of the “S” commands complete, the puzzle is in its “solved” configuration (the image is ingo_solved.ppm):
+
+1	2	3	4
+5	6	7	8
+9	10	11	12
+13	14	15	   Solved puzzle image
